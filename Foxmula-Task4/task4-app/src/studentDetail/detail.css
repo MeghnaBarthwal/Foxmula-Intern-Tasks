@@ -1,0 +1,61 @@
+.student_detail {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.student__first {
+  width: 380px;
+  height: 190px;
+  border-radius: 11px;
+  background-color: #e5e5e5;
+  margin: 40px;
+  padding: 8px;
+}
+
+.student__batch {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 15px;
+}
+
+.student__batch > p {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2e2e2e;
+}
+
+.student__name {
+  display: flex;
+  padding-left: 35px;
+  padding-top: 10px;
+}
+
+.student__name > p,
+.student_infor > p,
+.student__upcoming_activity > p {
+  color: #515151;
+  font-weight: 500;
+  font-size: 16px;
+  padding-top: 4px;
+  padding-left: 10px;
+}
+
+.student__name > img {
+  width: 28px;
+  border-radius: 50%;
+}
+
+.student_infor {
+  display: flex;
+  padding-left: 35px;
+  padding-top: 10px;
+}
+
+.student__upcoming_activity {
+  display: flex;
+  padding-left: 35px;
+  padding-top: 10px;
+}
